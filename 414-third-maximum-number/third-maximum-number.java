@@ -4,6 +4,8 @@ class Solution {
         long secondLargest = Long.MIN_VALUE;
         long thirdLargest = nums[0];
 
+        //This is different
+
         for(int i = 0; i < nums.length; i++)
         {
             if(nums[i] > largest)
